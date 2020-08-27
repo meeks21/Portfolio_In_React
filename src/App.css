@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 1140px;
+  margin: 0 auto;
+  background-color: yellowgreen;
+}
+
+#root{
+  /* width: 100%; */
+}
+
+.app{
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.header{
+  overflow: hidden;
+  background-color:white;
+  clear: both;
+  position: relative;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#logo{
+  margin-left: 10px;
+}
+
+
+
+
+/*******************************navbar********************************************************** */
+.nav_Container{
+  background-color: hotpink;
+  width: 50%;
+  float: right;
+}
+
+.navbar{
+  width: 100%;
+  background-color: aqua;
+  text-align: center;
+}
+
+
+.navbar a{
+  display: inline-block;
+  padding: 15px;
+  background-color:blanchedalmond ;
+  width: 25%;
+  text-decoration: none;
+  transition: border 0.2s;
+  
+}
+
+.navbar a:hover,
+.navbar a:visited{
+  border-bottom: solid blueviolet 2px;
+
+}
+/***********************************greeter********************************/
+.greeter_box{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1{
+  margin-bottom: 10px;
+}
+/*********************************main ************************************/
+.main{
+  margin-bottom: 20px;
+}
