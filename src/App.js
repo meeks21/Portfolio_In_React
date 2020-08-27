@@ -5,14 +5,21 @@ import Greeter from './components/Greeter'
 
 import './App.css';
 
-function App() {
-  return (
-    <div className="app">
-            <Header />
-            <Greeter />
-            <Main />
-    </div>
-  );
+
+class App extends React.Component {
+
+
+  render() {
+
+    return (
+      <div className="app">
+        <Header />
+        <Greeter />
+        <Main />
+      </div>
+
+    )
+  }
 }
 
 export default App;
